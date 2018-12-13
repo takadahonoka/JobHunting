@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E9DCD2921C23E0A0093A19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2821C23E0A0093A19E /* AppDelegate.swift */; };
+		5E9DCD2B21C23E0A0093A19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2A21C23E0A0093A19E /* ViewController.swift */; };
+		5E9DCD2E21C23E0A0093A19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2C21C23E0A0093A19E /* Main.storyboard */; };
+		5E9DCD3021C23E0B0093A19E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2F21C23E0B0093A19E /* Assets.xcassets */; };
+		5E9DCD3321C23E0B0093A19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DCD3121C23E0B0093A19E /* LaunchScreen.storyboard */; };
+		5E9DCD3E21C23E0B0093A19E /* GpsStalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD3D21C23E0B0093A19E /* GpsStalkerTests.swift */; };
+		5E9DCD4921C23E0C0093A19E /* GpsStalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD4821C23E0C0093A19E /* GpsStalkerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E9DCD3A21C23E0B0093A19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9DCD1D21C23E0A0093A19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9DCD2421C23E0A0093A19E;
+			remoteInfo = GpsStalker;
+		};
+		5E9DCD4521C23E0B0093A19E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E9DCD1D21C23E0A0093A19E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E9DCD2421C23E0A0093A19E;
+			remoteInfo = GpsStalker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E9DCD2521C23E0A0093A19E /* GpsStalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsStalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9DCD2821C23E0A0093A19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E9DCD2A21C23E0A0093A19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5E9DCD2D21C23E0A0093A19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E9DCD2F21C23E0B0093A19E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E9DCD3221C23E0B0093A19E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E9DCD3421C23E0B0093A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9DCD3921C23E0B0093A19E /* GpsStalkerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsStalkerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9DCD3D21C23E0B0093A19E /* GpsStalkerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsStalkerTests.swift; sourceTree = "<group>"; };
+		5E9DCD3F21C23E0B0093A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E9DCD4421C23E0B0093A19E /* GpsStalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsStalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E9DCD4821C23E0C0093A19E /* GpsStalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsStalkerUITests.swift; sourceTree = "<group>"; };
+		5E9DCD4A21C23E0C0093A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E9DCD2221C23E0A0093A19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9DCD3621C23E0B0093A19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9DCD4121C23E0B0093A19E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E9DCD1C21C23E0A0093A19E = {
+			isa = PBXGroup;
+			children = (
+				5E9DCD2721C23E0A0093A19E /* GpsStalker */,
+				5E9DCD3C21C23E0B0093A19E /* GpsStalkerTests */,
+				5E9DCD4721C23E0B0093A19E /* GpsStalkerUITests */,
+				5E9DCD2621C23E0A0093A19E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E9DCD2621C23E0A0093A19E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DCD2521C23E0A0093A19E /* GpsStalker.app */,
+				5E9DCD3921C23E0B0093A19E /* GpsStalkerTests.xctest */,
+				5E9DCD4421C23E0B0093A19E /* GpsStalkerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E9DCD2721C23E0A0093A19E /* GpsStalker */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DCD2821C23E0A0093A19E /* AppDelegate.swift */,
+				5E9DCD2A21C23E0A0093A19E /* ViewController.swift */,
+				5E9DCD2C21C23E0A0093A19E /* Main.storyboard */,
+				5E9DCD2F21C23E0B0093A19E /* Assets.xcassets */,
+				5E9DCD3121C23E0B0093A19E /* LaunchScreen.storyboard */,
+				5E9DCD3421C23E0B0093A19E /* Info.plist */,
+			);
+			path = GpsStalker;
+			sourceTree = "<group>";
+		};
+		5E9DCD3C21C23E0B0093A19E /* GpsStalkerTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DCD3D21C23E0B0093A19E /* GpsStalkerTests.swift */,
+				5E9DCD3F21C23E0B0093A19E /* Info.plist */,
+			);
+			path = GpsStalkerTests;
+			sourceTree = "<group>";
+		};
+		5E9DCD4721C23E0B0093A19E /* GpsStalkerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E9DCD4821C23E0C0093A19E /* GpsStalkerUITests.swift */,
+				5E9DCD4A21C23E0C0093A19E /* Info.plist */,
+			);
+			path = GpsStalkerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E9DCD2421C23E0A0093A19E /* GpsStalker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9DCD4D21C23E0C0093A19E /* Build configuration list for PBXNativeTarget "GpsStalker" */;
+			buildPhases = (
+				5E9DCD2121C23E0A0093A19E /* Sources */,
+				5E9DCD2221C23E0A0093A19E /* Frameworks */,
+				5E9DCD2321C23E0A0093A19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GpsStalker;
+			productName = GpsStalker;
+			productReference = 5E9DCD2521C23E0A0093A19E /* GpsStalker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E9DCD3821C23E0B0093A19E /* GpsStalkerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9DCD5021C23E0C0093A19E /* Build configuration list for PBXNativeTarget "GpsStalkerTests" */;
+			buildPhases = (
+				5E9DCD3521C23E0B0093A19E /* Sources */,
+				5E9DCD3621C23E0B0093A19E /* Frameworks */,
+				5E9DCD3721C23E0B0093A19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9DCD3B21C23E0B0093A19E /* PBXTargetDependency */,
+			);
+			name = GpsStalkerTests;
+			productName = GpsStalkerTests;
+			productReference = 5E9DCD3921C23E0B0093A19E /* GpsStalkerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E9DCD4321C23E0B0093A19E /* GpsStalkerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9DCD5321C23E0C0093A19E /* Build configuration list for PBXNativeTarget "GpsStalkerUITests" */;
+			buildPhases = (
+				5E9DCD4021C23E0B0093A19E /* Sources */,
+				5E9DCD4121C23E0B0093A19E /* Frameworks */,
+				5E9DCD4221C23E0B0093A19E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E9DCD4621C23E0B0093A19E /* PBXTargetDependency */,
+			);
+			name = GpsStalkerUITests;
+			productName = GpsStalkerUITests;
+			productReference = 5E9DCD4421C23E0B0093A19E /* GpsStalkerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E9DCD1D21C23E0A0093A19E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = stalker;
+				TargetAttributes = {
+					5E9DCD2421C23E0A0093A19E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					5E9DCD3821C23E0B0093A19E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5E9DCD2421C23E0A0093A19E;
+					};
+					5E9DCD4321C23E0B0093A19E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 5E9DCD2421C23E0A0093A19E;
+					};
+				};
+			};
+			buildConfigurationList = 5E9DCD2021C23E0A0093A19E /* Build configuration list for PBXProject "GpsStalker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E9DCD1C21C23E0A0093A19E;
+			productRefGroup = 5E9DCD2621C23E0A0093A19E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E9DCD2421C23E0A0093A19E /* GpsStalker */,
+				5E9DCD3821C23E0B0093A19E /* GpsStalkerTests */,
+				5E9DCD4321C23E0B0093A19E /* GpsStalkerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E9DCD2321C23E0A0093A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9DCD3321C23E0B0093A19E /* LaunchScreen.storyboard in Resources */,
+				5E9DCD3021C23E0B0093A19E /* Assets.xcassets in Resources */,
+				5E9DCD2E21C23E0A0093A19E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9DCD3721C23E0B0093A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9DCD4221C23E0B0093A19E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E9DCD2121C23E0A0093A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9DCD2B21C23E0A0093A19E /* ViewController.swift in Sources */,
+				5E9DCD2921C23E0A0093A19E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9DCD3521C23E0B0093A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9DCD3E21C23E0B0093A19E /* GpsStalkerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9DCD4021C23E0B0093A19E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E9DCD4921C23E0C0093A19E /* GpsStalkerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E9DCD3B21C23E0B0093A19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9DCD2421C23E0A0093A19E /* GpsStalker */;
+			targetProxy = 5E9DCD3A21C23E0B0093A19E /* PBXContainerItemProxy */;
+		};
+		5E9DCD4621C23E0B0093A19E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E9DCD2421C23E0A0093A19E /* GpsStalker */;
+			targetProxy = 5E9DCD4521C23E0B0093A19E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E9DCD2C21C23E0A0093A19E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9DCD2D21C23E0A0093A19E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E9DCD3121C23E0B0093A19E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E9DCD3221C23E0B0093A19E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E9DCD4B21C23E0C0093A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E9DCD4C21C23E0C0093A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E9DCD4E21C23E0C0093A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GpsStalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalker.GpsStalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E9DCD4F21C23E0C0093A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GpsStalker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalker.GpsStalker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E9DCD5121C23E0C0093A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GpsStalkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalker.GpsStalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GpsStalker.app/GpsStalker";
+			};
+			name = Debug;
+		};
+		5E9DCD5221C23E0C0093A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GpsStalkerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalker.GpsStalkerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GpsStalker.app/GpsStalker";
+			};
+			name = Release;
+		};
+		5E9DCD5421C23E0C0093A19E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GpsStalkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalker.GpsStalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GpsStalker;
+			};
+			name = Debug;
+		};
+		5E9DCD5521C23E0C0093A19E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GpsStalkerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stalker.GpsStalkerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GpsStalker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E9DCD2021C23E0A0093A19E /* Build configuration list for PBXProject "GpsStalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9DCD4B21C23E0C0093A19E /* Debug */,
+				5E9DCD4C21C23E0C0093A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9DCD4D21C23E0C0093A19E /* Build configuration list for PBXNativeTarget "GpsStalker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9DCD4E21C23E0C0093A19E /* Debug */,
+				5E9DCD4F21C23E0C0093A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9DCD5021C23E0C0093A19E /* Build configuration list for PBXNativeTarget "GpsStalkerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9DCD5121C23E0C0093A19E /* Debug */,
+				5E9DCD5221C23E0C0093A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9DCD5321C23E0C0093A19E /* Build configuration list for PBXNativeTarget "GpsStalkerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E9DCD5421C23E0C0093A19E /* Debug */,
+				5E9DCD5521C23E0C0093A19E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E9DCD1D21C23E0A0093A19E /* Project object */;
+}
