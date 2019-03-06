@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E36D2672223D1EF001D5A90 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E36D2662223D1EF001D5A90 /* CustomTableViewCell.swift */; };
+		5E5ACB6C21D3B6A40032020D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E5ACB6B21D3B6A40032020D /* MapKit.framework */; };
+		5E780A9F21FB515B0003FC95 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E780A9E21FB515B0003FC95 /* PageViewController.swift */; };
+		5E780AA721FB55820003FC95 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E780AA621FB55820003FC95 /* FirstViewController.swift */; };
+		5E780B2521FB61980003FC95 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E780B2421FB61980003FC95 /* SecondViewController.swift */; };
+		5E780B2721FB61C00003FC95 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E780B2621FB61C00003FC95 /* ThirdViewController.swift */; };
 		5E9DCD2921C23E0A0093A19E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2821C23E0A0093A19E /* AppDelegate.swift */; };
 		5E9DCD2B21C23E0A0093A19E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2A21C23E0A0093A19E /* ViewController.swift */; };
 		5E9DCD2E21C23E0A0093A19E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DCD2C21C23E0A0093A19E /* Main.storyboard */; };
@@ -14,6 +20,10 @@
 		5E9DCD3321C23E0B0093A19E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E9DCD3121C23E0B0093A19E /* LaunchScreen.storyboard */; };
 		5E9DCD3E21C23E0B0093A19E /* GpsStalkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD3D21C23E0B0093A19E /* GpsStalkerTests.swift */; };
 		5E9DCD4921C23E0C0093A19E /* GpsStalkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E9DCD4821C23E0C0093A19E /* GpsStalkerUITests.swift */; };
+		5EB0775F22283A5800006511 /* CustomTableViewCell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB0775E22283A5800006511 /* CustomTableViewCell2.swift */; };
+		5ED8A69322042064002E94E7 /* TalkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED8A69222042064002E94E7 /* TalkViewController.swift */; };
+		5EE88C6B222474CE008D9EA0 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE88C6A222474CD008D9EA0 /* icon.png */; };
+		5EEE25A02206C6130035CA03 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEE259F2206C6130035CA03 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E36D2662223D1EF001D5A90 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		5E5ACB6B21D3B6A40032020D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		5E780A9E21FB515B0003FC95 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		5E780AA621FB55820003FC95 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		5E780B2421FB61980003FC95 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		5E780B2621FB61C00003FC95 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		5E9DCD2521C23E0A0093A19E /* GpsStalker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GpsStalker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9DCD2821C23E0A0093A19E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E9DCD2A21C23E0A0093A19E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +63,10 @@
 		5E9DCD4421C23E0B0093A19E /* GpsStalkerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GpsStalkerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E9DCD4821C23E0C0093A19E /* GpsStalkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsStalkerUITests.swift; sourceTree = "<group>"; };
 		5E9DCD4A21C23E0C0093A19E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB0775E22283A5800006511 /* CustomTableViewCell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell2.swift; sourceTree = "<group>"; };
+		5ED8A69222042064002E94E7 /* TalkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkViewController.swift; sourceTree = "<group>"; };
+		5EE88C6A222474CD008D9EA0 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../Pictures/icon.png; sourceTree = "<group>"; };
+		5EEE259F2206C6130035CA03 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E5ACB6C21D3B6A40032020D /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E5ACB6A21D3B6A40032020D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E5ACB6B21D3B6A40032020D /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5E9DCD1C21C23E0A0093A19E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +110,7 @@
 				5E9DCD3C21C23E0B0093A19E /* GpsStalkerTests */,
 				5E9DCD4721C23E0B0093A19E /* GpsStalkerUITests */,
 				5E9DCD2621C23E0A0093A19E /* Products */,
+				5E5ACB6A21D3B6A40032020D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +127,21 @@
 		5E9DCD2721C23E0A0093A19E /* GpsStalker */ = {
 			isa = PBXGroup;
 			children = (
+				5EB0775E22283A5800006511 /* CustomTableViewCell2.swift */,
+				5EE88C6A222474CD008D9EA0 /* icon.png */,
 				5E9DCD2821C23E0A0093A19E /* AppDelegate.swift */,
 				5E9DCD2A21C23E0A0093A19E /* ViewController.swift */,
 				5E9DCD2C21C23E0A0093A19E /* Main.storyboard */,
+				5E780B2621FB61C00003FC95 /* ThirdViewController.swift */,
+				5E780B2421FB61980003FC95 /* SecondViewController.swift */,
 				5E9DCD2F21C23E0B0093A19E /* Assets.xcassets */,
 				5E9DCD3121C23E0B0093A19E /* LaunchScreen.storyboard */,
 				5E9DCD3421C23E0B0093A19E /* Info.plist */,
+				5E780A9E21FB515B0003FC95 /* PageViewController.swift */,
+				5EEE259F2206C6130035CA03 /* LoginViewController.swift */,
+				5E780AA621FB55820003FC95 /* FirstViewController.swift */,
+				5ED8A69222042064002E94E7 /* TalkViewController.swift */,
+				5E36D2662223D1EF001D5A90 /* CustomTableViewCell.swift */,
 			);
 			path = GpsStalker;
 			sourceTree = "<group>";
@@ -229,6 +268,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EE88C6B222474CE008D9EA0 /* icon.png in Resources */,
 				5E9DCD3321C23E0B0093A19E /* LaunchScreen.storyboard in Resources */,
 				5E9DCD3021C23E0B0093A19E /* Assets.xcassets in Resources */,
 				5E9DCD2E21C23E0A0093A19E /* Main.storyboard in Resources */,
@@ -256,8 +296,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E36D2672223D1EF001D5A90 /* CustomTableViewCell.swift in Sources */,
+				5E780A9F21FB515B0003FC95 /* PageViewController.swift in Sources */,
 				5E9DCD2B21C23E0A0093A19E /* ViewController.swift in Sources */,
+				5EB0775F22283A5800006511 /* CustomTableViewCell2.swift in Sources */,
 				5E9DCD2921C23E0A0093A19E /* AppDelegate.swift in Sources */,
+				5ED8A69322042064002E94E7 /* TalkViewController.swift in Sources */,
+				5EEE25A02206C6130035CA03 /* LoginViewController.swift in Sources */,
+				5E780B2521FB61980003FC95 /* SecondViewController.swift in Sources */,
+				5E780B2721FB61C00003FC95 /* ThirdViewController.swift in Sources */,
+				5E780AA721FB55820003FC95 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
